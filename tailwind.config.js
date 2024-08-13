@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+      sans: ['Neuething Sans Test', 'sans-serif'],
+    },
       colors: {
         primary: '#1D4ED8', // Your primary color
         secondary: '#D97706', // Your secondary color

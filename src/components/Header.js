@@ -13,7 +13,7 @@ const Header = () => {
         </div>
       </nav>
     </header> */}
-    <div className="bg-primary navbar ">
+    <div className="navbar bg-base-100 px-4">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,37 +33,25 @@ const Header = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a href='/'>Home</a></li>
-        <li>
-          <a>Sub-Menu</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+        <li><a href='/'>Work</a></li>
+        <li><a href='/'>About Us</a></li>
+        <li><a href='/'>Blog</a></li>
+        <li><a href='/'>Careers</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">NewKindred</a>
+    <a href='/' className="btn btn-ghost text-xl">NewKindred</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a href='/'>Home</a></li>
-      <li>
-        <details>
-          <summary>Sub-Menu</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a href='/about'>About</a></li>
+    <li><a href='/'>Work</a></li>
+        <li><a href='/'>About Us</a></li>
+        <li><a href='/'>Blog</a></li>
+        <li><a href='/'>Careers</a></li>
     </ul>
   </div>
-  {/* <div className="navbar-end">
-    <a className="btn">Button</a>
-  </div> */}
+  <div className="navbar-end">
+    <a href='/' className="btn">Let's Talk</a>
+  </div>
 </div>
     </>
 
