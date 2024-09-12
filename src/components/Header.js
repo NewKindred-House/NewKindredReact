@@ -35,17 +35,17 @@ const Header = () => {
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
         <li><a href='/'>Work</a></li>
         <li><a href='/'>About Us</a></li>
-        <li><a href='/'>Blog</a></li>
+        <li><Link to={'/blog'}>Blog</Link></li>
         <li><a href='/'>Careers</a></li>
       </ul>
     </div>
-    <a href='/' className="btn btn-ghost text-xl">NewKindred</a>
+    <a href='/' className="btn text-xl">NewKindred</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
     <li><a href='/'>Work</a></li>
         <li><a href='/'>About Us</a></li>
-        <li><a href='/'>Blog</a></li>
+        <li><Link to={'/blog'}>Blog</Link></li>
         <li><a href='/'>Careers</a></li>
     </ul>
   </div>
