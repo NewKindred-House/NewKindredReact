@@ -16,6 +16,9 @@ module.exports = {
         gray1: '#1D1D1D87',
         text_color: '#484848',
         deep_text_color: '#282828',
+        plain_blue: '#D1DDF7',
+        plain_yellow: '#F7EAC9',
+        alpino_blue: '#110F36'
       },
       fontFamily: {
         'neuething': ['Neuething-Sans-Test', 'sans-serif']

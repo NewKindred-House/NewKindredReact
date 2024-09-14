@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import BlogBanner from "../components/BlogBanner";
+import Banner from "../components/Banner";
 import enhanceSeoImg from "../assets/images/blog-enhance_seo-lg.png"
 import seoImg from "../assets/images/blog-seo.png"
 import ReadyToWork from "../components/ReadyToWork";
@@ -18,7 +18,7 @@ export default function EnhanceSeo() {
     }, [])
     return (
         <div className="text-text_color">
-            <BlogBanner />
+            <Banner section={'Blog'}/>
             {/* The blog summary */}
             <div className="blog-summary py-5 px-5 sm:px-14 lg:px-20">
                 {/* The div for the image */}
