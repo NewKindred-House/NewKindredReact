@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
         </div>
       </nav>
     </header> */}
-    <div className="navbar bg-base-100 px-4">
+    <div className="navbar bg-base-100 px-20">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,24 +33,24 @@ const Header = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a href='/'>Work</a></li>
-        <li><a href='/'>About Us</a></li>
-        <li><a href='/'>Blog</a></li>
-        <li><a href='/'>Careers</a></li>
+        <li><a href='/work' className='hover:bg-white hover:text-primary hover:font-extrabold'>Work</a></li>
+        <li><a href='/about' className='hover:bg-white hover:text-primary hover:font-extrabold'>About Us</a></li>
+        <li><a href='/blog' className='hover:bg-white hover:text-primary hover:font-extrabold'>Blog</a></li>
+        <li><a href='/careers' className='hover:bg-white hover:text-primary hover:font-extrabold'>Careers</a></li>
       </ul>
     </div>
     <a href='/' className="btn btn-ghost text-xl">NewKindred</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-    <li><a href='/'>Work</a></li>
-        <li><a href='/'>About Us</a></li>
-        <li><a href='/'>Blog</a></li>
-        <li><a href='/'>Careers</a></li>
+    <ul className="menu menu-horizontal px-1 gap-20">
+    <li><a href='/work' className='hover:bg-white hover:text-primary hover:font-extrabold'>Work</a></li>
+        <li><a href='/about' className='hover:bg-white hover:text-primary hover:font-extrabold'>About Us</a></li>
+        <li><a href='/blog' className='hover:bg-white hover:text-primary hover:font-extrabold'>Blog</a></li>
+        <li><a href='/careers' className='hover:bg-white hover:text-primary hover:font-extrabold'>Careers</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='/' className="btn">Let's Talk</a>
+    <a href='/connect' className="bg-primary text-white btn hover:bg-primary">Connect</a>
   </div>
 </div>
     </>

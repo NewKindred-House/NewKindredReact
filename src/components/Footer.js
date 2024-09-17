@@ -1,4 +1,9 @@
 import React from 'react';
+import { FaFacebookF } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import logo from "../assets/images/logo.png"
+//import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -7,8 +12,56 @@ const Footer = () => {
       <p>&copy; 2023 My App. All rights reserved.</p>
     </footer> */}
 
-    <footer className="footer bg-base-300 text-base-content p-10">
-  <nav>
+    <footer className="footer flex flex-col bg-primary  text-white p-10">
+        <div class="w-full grid grid-cols-1 xl:grid-cols-5 gap-9 px-4 py-4">
+            <div class="w-full flex flex-col gap-4 rounded-xl col-span-2">
+            <img src={logo} alt='' className='w-20'/>
+              <div>
+              <p className='font-normal text-[18.23px] leading-[34px] tracking-[3.5px]'>Ikeja Ph 218 Ave 200 lagos state</p>
+              <p className='font-normal text-[18.23px] leading-[34px] tracking-[3.5px]'>+987 7473-2839-298</p>
+              <p className='font-normal text-[18.23px] leading-[34px] tracking-[3.5px]'>connect@NewKindred,com</p>
+              </div>
+            </div>
+            <div class="w-full flex flex-col ">
+            <nav className='flex flex-col gap-2'>
+    <h6 className="footer-title">Services</h6>
+    <a href='/' className="w-fit py-2">Email Marketing</a>
+            <a href='/' className="w-fit py-2">Content Marketing</a>
+            <a href='/' className="w-fit py-2">Branding</a>
+            <a href='/' className="w-fit py-2">Digital</a>
+  
+  </nav>
+            </div>
+            <div class="w-full ">
+            <nav className='flex flex-col gap-2'>
+    <h6 className="footer-title">About</h6>
+    <a href='/' className="w-fit py-2">Our Story</a>
+            <a href='/' className="w-fit py-2">Benefits</a>
+            <a href='/' className="w-fit py-2">Team</a>
+            <a href='/' className="w-fit py-2">Careers</a>
+  
+  </nav>
+            </div>
+            <div class="w-full">
+            <nav className='flex flex-col gap-2'>
+    <h6 className="footer-title">Follow Us</h6>
+            <a href='/' className="flex items-center gap-2 w-fit py-2"><FaFacebookF/>Facebook</a>
+            <a href='/' className="flex items-center gap-2 w-fit py-2"><FaXTwitter />Twitter</a>
+            <a href='/' className="flex items-center gap-2 w-fit py-2"><FaInstagram />Instagram</a>
+  
+  </nav>
+            </div>
+       
+        </div>
+        <div className='w-full lg:flex  justify-between items-center lg:px-40'>
+            <div className='flex lg:w-fit w-full justify-center  gap-4'>
+            <a href='/' className="w-fit py-2">Terms & Conditions</a>
+            <a href='/' className="w-fit py-2">Privacy Policy</a>
+            </div>
+            <div>Copyright 2024. Newkindred. All right reserved.</div>
+        </div>
+        
+  {/* <nav>
     <h6 className="footer-title">Services</h6>
     <a href='/' className="link link-hover">Branding</a>
     <a href='/' className="link link-hover">Design</a>
@@ -59,7 +112,7 @@ const Footer = () => {
         </svg>
       </a>
     </div>
-  </nav>
+  </nav> */}
 </footer>
     </>
 

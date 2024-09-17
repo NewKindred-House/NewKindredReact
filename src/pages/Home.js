@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../src/index.css';
 import homebanner from "../assets/images/homebanner.png"
+import footbanner from "../assets/images/footerbanner.png"
 import service1 from "../assets/images/service1.png"
 import service2 from "../assets/images/service2.png"
 import service3 from "../assets/images/service3.png"
@@ -50,19 +51,19 @@ const Home = () => {
                   </div>
                   <div className='w-full h-full flex lg:p-8 p-2 bg-[rgba(255,189,26,0.2)] shadow-xl'>
                   <div className='flex flex-col justify-center items-center w-full h-full'>
-                        <img src={service1} alt="service1" className='w-[200px]' />
+                        <img src={service2} alt="service1" className='w-[200px]' />
                         <p className='font-normal text-[24px] leading-[38px] text-center text-[#282828]'>Branding</p>
                     </div>
                   </div>
                   <div className='w-full h-full flex lg:p-8 p-2 bg-[rgba(64,123,255,0.2)] shadow-xl'>
                   <div className='flex flex-col justify-center items-center w-full h-full'>
-                        <img src={service1} alt="service1" className='w-[200px]' />
+                        <img src={service3} alt="service1" className='w-[200px]' />
                         <p className='font-normal text-[24px] leading-[38px] text-center text-[#282828]'>Branding</p>
                     </div>
                   </div>
                   <div className='w-full h-full flex lg:p-8 p-2 bg-[rgba(255,189,26,0.2)] shadow-xl'>
                   <div className='flex flex-col justify-center items-center w-full h-full'>
-                        <img src={service1} alt="service1" className='w-[200px]' />
+                        <img src={service4} alt="service1" className='w-[200px]' />
                         <p className='font-normal text-[24px] leading-[38px] text-center text-[#282828]'>Branding</p>
                     </div>
                   </div>
@@ -70,6 +71,27 @@ const Home = () => {
                 </div>
        </div>
        
+      </div>
+
+      {/*  */}
+      <div className='p-10 flex flex-col justify-center items-center'>
+          <p className='font-normal text-[45px] leading-[52px] text-[#282828]'>Featured Work</p>
+          <p className='font-normal text-[24px] leading-[32px] text-center text-[#484848]'>We believe that brands are more than just products; they're stories waiting to be told.</p>
+          <div
+      className="w-full  flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: `url(${footbanner})`,
+        width: '',
+        height: '579.6px', }}
+    >
+<div className=' text-white '>
+        <h1 className="font-normal text-[63.0899px] leading-[72px] tracking-[-0.27671px]">
+        Footprint World AI
+      </h1>
+      <p>Innovating Today For A Smarter Tomorrow.</p>
+     
+    </div>
+    
+    </div>
       </div>
  
 

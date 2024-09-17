@@ -9,7 +9,7 @@ module.exports = {
       sans: ['Neuething Sans Test', 'sans-serif'],
     },
       colors: {
-        primary: '#1D4ED8', // Your primary color
+        primary: '#4F48EC', // Your primary color
         secondary: '#D97706', // Your secondary color
       },
     },
