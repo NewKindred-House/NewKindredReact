@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Blog = () => {
-  return (
-    <div>
-    <h1 className="text-primary">Blog Page</h1>
-    <p className="text-secondary">Welcome to the about page!</p>
-  </div>
-  )
-}
-
-export default Blog
-=======
 import React from 'react';
 import Banner from '../components/Banner';
 import { blogBoxData } from '../assets/data/blogBoxData';
@@ -37,4 +23,3 @@ export default function Blog() {
         </div>
     )
 }
->>>>>>> 28389d01666afc10fc3869d884c9592788c1af8d

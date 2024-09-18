@@ -3,6 +3,7 @@ import 'swiper/css/pagination';
 import 'swiper/css';
 
 
+
 //Create a function to generate Swiper Slide
 function Slides({content}) {
   return (
