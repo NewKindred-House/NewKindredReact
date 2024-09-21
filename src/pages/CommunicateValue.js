@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Banner from '../components/Banner';
 import SwiperComponent from '../components/SwiperComponent';
 import ReadyToWork from '../components/ReadyToWork';
@@ -8,6 +8,14 @@ import { strategy, reason } from '../assets/data/communicateValueData';
 import BlogDiv from '../components/BlogDiv';
 
 export default function CommunicateValue() {
+    useEffect(() => {
+        //We use this useEffect to scroll back up
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    }, [])
     return (
         <div className="text-text_color">
             <Banner section={'Blog'}/>
