@@ -23,10 +23,5 @@ export const content = [
         title: "Implementing and Evolving Brand Guidelines",
         content: "Once you’ve defined your brand identity, it’s crucial to establish clear guidelines to ensure consistency in your branding efforts. These guidelines serve as a roadmap for maintaining brand coherence across various channels and touchpoints.",
         content2: "From logo usage and typography to tone of voice and color palette, every aspect of your brand’s visual and verbal communication should adhere to these guidelines. By implementing and evolving your brand guidelines over time, you can safeguard the integrity of your brand identity while allowing for necessary adjustments to meet evolving market demands."
-    },
-    {
-        title: "",
-        content: "",
-        content2: ""
-    },
+    }
 ]
