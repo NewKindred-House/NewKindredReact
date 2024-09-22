@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --swiper-pagination-color: #4F48EC;
 }

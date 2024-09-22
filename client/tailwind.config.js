@@ -7,13 +7,6 @@ module.exports = {
     extend: {
       fontFamily: {
       sans: ['Neuething Sans Test', 'sans-serif'],
-<<<<<<< HEAD
-    },
-      colors: {
-        primary: '#4F48EC', // Your primary color
-        secondary: '#D97706', // Your secondary color
-=======
->>>>>>> 28389d01666afc10fc3869d884c9592788c1af8d
       },
       colors: {
         //primary: '#1D4ED8', // Your primary color

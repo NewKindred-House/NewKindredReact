@@ -1,7 +1,4 @@
 import React,{useRef, useEffect} from 'react';
-import 'swiper/css/pagination';
-import 'swiper/css';
-
 
 
 //Create a function to generate Swiper Slide

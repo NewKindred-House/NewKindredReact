@@ -28,7 +28,7 @@ const Header = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li><Link to={'/work'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Work</Link></li>
-              <li><Link to={'/'} className='hover:bg-white hover:text-primary hover:font-extrabold'>About Us</Link></li>
+              <li><Link to={'/about'} className='hover:bg-white hover:text-primary hover:font-extrabold'>About Us</Link></li>
               <li><Link to={'/blog'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Blog</Link></li>
               <li><Link to={'/careers'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Careers</Link></li>
             </ul>
@@ -38,7 +38,7 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-20">
             <li><Link to={'/work'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Work</Link></li>
-            <li><Link to={'/'} className='hover:bg-white hover:text-primary hover:font-extrabold'>About Us</Link></li>
+            <li><Link to={'/about'} className='hover:bg-white hover:text-primary hover:font-extrabold'>About Us</Link></li>
             <li><Link to={'/blog'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Blog</Link></li>
             <li><Link to={'/careers'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Careers</Link></li>
           </ul>
