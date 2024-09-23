@@ -11,6 +11,12 @@
   color: green;
   background-color: aqua;
   background: rgba(79, 72, 236, 0.05);
+  
+}
+
+body{
+  color:#484848;
+  
 }
 /* body {
   margin: 0;
