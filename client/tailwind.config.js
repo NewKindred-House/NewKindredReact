@@ -14,6 +14,7 @@ module.exports = {
         primary: '#4F48EC', 
         banner_bg: '#CECCFA',
         gray1: '#1D1D1D87',
+        grey2: 'rgba(206, 204, 250, 23)',// Grey 2
         text_color: '#484848',
         deep_text_color: '#282828',
         plain_blue: '#D1DDF7',
