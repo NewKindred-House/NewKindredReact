@@ -20,6 +20,13 @@ module.exports = {
         plain_yellow: '#F7EAC9',
         alpino_blue: '#110F36'
       },
+      screens: {
+        'medium-pc' : {'max': '1300px'},
+        'small-pc': {'max': '950px'},
+        'tablet': {'max': '700px'},
+        'phone': {'max': '500px'},
+        'small-phone': {'max': '450px'},
+      },
       fontFamily: {
         'neuething': ['Neuething-Sans-Test', 'sans-serif']
       }
