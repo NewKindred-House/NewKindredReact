@@ -2,10 +2,12 @@ import React from 'react';
 
 export default function Banner({section}) {
     return (
-        <div className='bg-banner_bg backdrop-opacity-[23%] flex justify-between px-5 lg:py-24 sm:py-20 py-16 sm:px-14 lg:px-20'>
-                <h3 className='btn btn-outline h-fit py-1 border-primary hover:bg-transparent hover:text-black font-neuething font-normal text-lg lg:text-xl max-w-36'>
-                    {section}
-                </h3>
+        <div className='bg-banner_bg flex items-center justify-between pad1 min-h-[362px]'>
+                <div>
+                    <h3 className='rounded-[8px] border-[0.8px] border-primary p-[10px] text-[24px] font-normal'>
+                        {section}
+                    </h3>
+                </div>
 
                 <div>
                     <h1 className='font-neuething font-medium text-2xl sm:text-3xl lg:text-6xl text-deep_text_color'>

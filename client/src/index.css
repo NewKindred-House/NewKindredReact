@@ -7,6 +7,15 @@
   --swiper-pagination-color: #4F48EC;
 }
 
+@layer components{
+  .pad1 {
+    @apply px-[120px] small-pc:px-14 tablet:px-10 phone:px-5
+  }
+  .pad2{
+    @apply pt-[10px] pb-[10px] pl-[6px] pr-[6px]
+  }
+}
+
 @layer base {
 
   @font-face {
