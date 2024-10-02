@@ -1,10 +1,10 @@
-import React from 'react';
+import LogoImg from '../assets/images/logo.png'
 import { Link } from 'react-router-dom'; // Uncomment this line to use Link
 
 const Header = () => {
   return (
     <>
-      <div className="navbar justify-between bg-base-100 px-20 pad1 phone:px-2 ">
+      <div className="navbar justify-between bg-base-100 pad1 phone:px-2 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,14 +33,18 @@ const Header = () => {
               <li><Link to={'/careers'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Careers</Link></li>
             </ul>
           </div>
-          <Link to={'/'} className="btn text-xl">NewKindred</Link>
+
+          <Link to={'/'} >
+            <img src={LogoImg} alt='logo' className='w-[186px]' />
+          </Link>
+
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-20">
-            <li><Link to={'/work'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Work</Link></li>
-            <li><Link to={'/about'} className='hover:bg-white hover:text-primary hover:font-extrabold'>About Us</Link></li>
-            <li><Link to={'/blog'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Blog</Link></li>
-            <li><Link to={'/careers'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Careers</Link></li>
+            <li><Link to={'/work'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Work</Link></li>
+            <li><Link to={'/about'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>About Us</Link></li>
+            <li><Link to={'/blog'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Blog</Link></li>
+            <li><Link to={'/careers'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Careers</Link></li>
           </ul>
         </div>
         <div className="navbar-end">

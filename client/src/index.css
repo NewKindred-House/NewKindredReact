@@ -9,7 +9,7 @@
 
 @layer components{
   .pad1 {
-    @apply px-10 small-pc:px-14 tablet:px-10 phone:px-5
+    @apply px-[120px] small-pc:px-14 tablet:px-10 phone:px-5
   }
 }
 

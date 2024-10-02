@@ -12,7 +12,7 @@ module.exports = {
         //primary: '#1D4ED8', // Your primary color
         secondary: '#D97706', // Your secondary color
         primary: '#4F48EC', 
-        banner_bg: '#CECCFA',
+        banner_bg: '#CECCFA3B',
         gray1: '#1D1D1D87',
         text_color: '#484848',
         deep_text_color: '#282828',
