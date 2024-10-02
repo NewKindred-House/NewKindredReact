@@ -4,7 +4,7 @@ export default function Banner({section}) {
     return (
         <div className='bg-banner_bg flex items-center justify-between pad1 min-h-[362px]'>
                 <div>
-                    <h3 className='rounded-[8px] border-[0.8px] border-primary p-[10px]'>
+                    <h3 className='rounded-[8px] border-[0.8px] border-primary p-[10px] text-[24px] font-normal'>
                         {section}
                     </h3>
                 </div>

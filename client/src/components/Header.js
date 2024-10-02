@@ -25,12 +25,13 @@ const Header = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-4 shadow flex flex-col gap-4"
             >
-              <li><Link to={'/work'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Work</Link></li>
-              <li><Link to={'/about'} className='hover:bg-white hover:text-primary hover:font-extrabold'>About Us</Link></li>
-              <li><Link to={'/blog'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Blog</Link></li>
-              <li><Link to={'/careers'} className='hover:bg-white hover:text-primary hover:font-extrabold'>Careers</Link></li>
+              <li><Link to={'/work'} className='hover:bg-white hover:text-primary w-full'>Work</Link></li>
+              <li><Link to={'/about'} className='hover:bg-white hover:text-primary w-full'>About Us</Link></li>
+              <li><Link to={'/services'} className='hover:bg-white hover:text-primary w-full'>Services</Link></li>
+              <li><Link to={'/blog'} className='hover:bg-white hover:text-primary w-full'>Blog</Link></li>
+              <li><Link to={'/careers'} className='hover:bg-white hover:text-primary w-full'>Careers</Link></li>
             </ul>
           </div>
 
@@ -43,6 +44,7 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1 gap-20">
             <li><Link to={'/work'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Work</Link></li>
             <li><Link to={'/about'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>About Us</Link></li>
+            <li><Link to={'/services'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Services</Link></li>
             <li><Link to={'/blog'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Blog</Link></li>
             <li><Link to={'/careers'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Careers</Link></li>
           </ul>

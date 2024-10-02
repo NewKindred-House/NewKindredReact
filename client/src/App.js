@@ -11,6 +11,7 @@ import EstablishBrandIdentity from './pages/EstablishBrandIdentity';
 import Work from './pages/Work';
 import Careers from './pages/Careers';
 import Connect from './pages/Connect';
+import Services from './pages/Services';
 //import Contact from './pages/Contact';
 
 const App = () => {
@@ -24,6 +25,8 @@ const App = () => {
           <Route path="/connect" element={<Connect />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/blog" element={<Blog/>} />
+          <Route path="/services" element={<Services/>} />
+
           <Route path='/blog/establish-a-strong-brand-identity' element={<EstablishBrandIdentity/>}/>
           <Route path="/blog/enhance-seo" element={<EnhanceSeo/>} />
           <Route path="/blog/keys-to-establish-brand-identity" element={<EstablishBrandKeys/>} />
