@@ -9,13 +9,13 @@ export default function Blog() {
     const blogs = blogBoxData.map(data => <BlogCard key={data.altText} data={data} />)
 
     return (
-        <div className=''>
+        <div className='flex flex-col'>
             
             {/* This is the banner */}
             <Banner section={'Blog'} />
 
             {/* This is the blog posts */}
-            <div className='blog-posts py-5 sm:px-16 px-5 grid gap-8 lg:gap-11 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
+            <div className='blog-posts mt-12 mb-12 pad1 grid gap-8 lg:gap-11 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
                 {blogs}
             </div>
             {/* This is the ready to work div */}

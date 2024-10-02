@@ -17,10 +17,10 @@ export default function EstablishBrandKeys() {
         });
     }, [])
     return (
-        <div className="text-text_color">
+        <div className="text-text_color flex flex-col">
             <Banner section={'Blog'}/>
             {/* The blog summary */}
-            <div className="blog-summary py-5 px-5 sm:px-14 lg:px-20">
+            <div className="blog-summary pmt-12 mb-12 pad1">
                 {/* The div for the image */}
                 <div>
                     <img src={speaker} alt="An orange megaphone speaker on orange background" className="w-full aspect-[1300/431] object-cover object-center"/>

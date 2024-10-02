@@ -27,7 +27,7 @@ function Services() {
             <div className="flex flex-col">
                 {
                     ourServices.map((item, idx) => (
-                        <div className="mb-12">
+                        <div key={idx} className="mb-12">
                             <h2 className='text-[32px] font-neuething tablet:text-[24px] font-semibold text-text_color2'>
                                 {item.name}
                             </h2>
