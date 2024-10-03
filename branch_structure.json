@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "Success-Branch",
+    "Tolu's-Branch",
+    "main",
+    "origin",
+    "testing-branch",
+    "victory-branch"
+  ],
+  "parent": {
+    "Success-Branch": "main",
+    "Tolu's-Branch": "main",
+    "main": null,
+    "origin": "main",
+    "testing-branch": "main",
+    "victory-branch": "main"
+  },
+  "order": [
+    "main",
+    "Success-Branch",
+    "Tolu's-Branch",
+    "origin",
+    "testing-branch",
+    "victory-branch"
+  ]
+}
