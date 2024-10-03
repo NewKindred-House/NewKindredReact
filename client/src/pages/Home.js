@@ -114,9 +114,9 @@ const Home = () => {
     </div>
     {/*  */}
     <div className='pt-20 pb-20 flex flex-col justify-center items-center '>
-    <div className='text-center max-w-[60%] small-pc:max-w-full pad1'>
-         <p className='font-normal text-[57px] leading-[64px] tracking-[-0.25px] text-[#282828]'> Our Ideology</p>
-        <p className='font-normal text-[24px] leading-[38px] text-[#484848]'>We partner with businesses to create great brands, to create stories for themselves, to shape their brand experiences.</p>
+    <div className='text-center  small-pc:max-w-full pad1'>
+         <p className='font-normal text-center text-[57px] leading-[64px] tracking-[-0.25px] text-[#282828]'> Our Ideology</p>
+        <p className='font-normal text-center text-[24px] leading-[38px] text-[#484848]'>We partner with businesses to create great brands, to create stories for themselves, to shape their brand experiences.</p>
    
     </div>
       </div>
