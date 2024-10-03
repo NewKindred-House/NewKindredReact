@@ -31,7 +31,11 @@ const Header = () => {
               <li><Link to={'/about'} className='hover:bg-white hover:text-primary w-full'>About Us</Link></li>
               <li><Link to={'/services'} className='hover:bg-white hover:text-primary w-full'>Services</Link></li>
               <li><Link to={'/blog'} className='hover:bg-white hover:text-primary w-full'>Blog</Link></li>
+              {/**
+               * 
               <li><Link to={'/careers'} className='hover:bg-white hover:text-primary w-full'>Careers</Link></li>
+               */}
+
             </ul>
           </div>
 
@@ -46,7 +50,12 @@ const Header = () => {
             <li><Link to={'/about'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>About Us</Link></li>
             <li><Link to={'/services'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Services</Link></li>
             <li><Link to={'/blog'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Blog</Link></li>
-            <li><Link to={'/careers'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Careers</Link></li>
+            {
+              /**
+               * 
+              <li><Link to={'/careers'} className='hover:bg-white hover:text-primary font-normal text-[16px]'>Careers</Link></li>
+               */
+            }
           </ul>
         </div>
         <div className="navbar-end">
