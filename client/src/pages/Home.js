@@ -101,10 +101,10 @@ const Home = () => {
         height: '579.6px', }}
     >
     <div className=' text-center text-white max-w-[50%] small-pc:max-w-full pad1 flex flex-col gap-6'>
-        <h1 className="font-normal text-[63.0899px] leading-[72px] text-center tracking-[-0.27671px]">
+        <h1 className="font-normal text-[63.0899px] tablet:text-[48px] phone:text-[32px] leading-[72px] text-center tracking-[-0.27671px]">
         Shaping Brand Experiences Through Storytelling
       </h1>
-      <p>Businesses come to us as their starting point to innovate, shape, reimagine ideas, and create unforgettable experiences and products pushing beyond the limits of what's possible with storytelling.</p>
+      <p className='phone:text-[20px]'>Businesses come to us as their starting point to innovate, shape, reimagine ideas, and create unforgettable experiences and products pushing beyond the limits of what's possible with storytelling.</p>
       <div>
         <button className="btn btn-primary">Let's Talk</button>
 
